@@ -1,0 +1,3 @@
+jogo = document.getElementById('jogo')
+
+
