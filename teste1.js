@@ -1,3 +1,0 @@
-jogo = document.getElementById('jogo')
-
-
