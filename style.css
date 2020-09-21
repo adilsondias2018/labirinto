@@ -7,7 +7,9 @@
 
 body{
     
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
 }
 header{
@@ -17,7 +19,7 @@ header{
 
 main{
     width: 570px;
-    margin: 0 auto;
+    margin: auto auto;
     text-align: center;   
 }
 
@@ -63,6 +65,8 @@ img{
 }
 
 #mensagem{
+      display: flex;
+      flex-direction: column;          
       width: 100%;
       min-width: 250px;
       max-width: 250px;      
@@ -74,7 +78,7 @@ img{
       border: solid 2px white;
       box-shadow: 0 0 1em gold;
       transition: all 0.3 3s linear;
-      z-index: 100;
+      z-index: 10000;
 }
 
 button{
@@ -89,7 +93,7 @@ button :hover{
 }
 
 
-/* .hide{
+.hide{
     
     display: none;
-} */
+}
